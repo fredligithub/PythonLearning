@@ -13,6 +13,12 @@ ratio = 3
 kernel_size = 3
 
 img = cv2.imread('C:/Users/GG/Pictures/Saved Pictures/Road.jpg')
+
+# 读取了图片的长， 宽
+# h,w = img.shape[:2]
+# print(h,w)
+
+# 图片转换为灰度图， 包括几种常用的转换方法： cv2.COLOR_BGR2GRAY  cv2.COLOR_BGR2RGB  cv2.COLOR_GRAY2BGR
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 cv2.namedWindow('Canny demo')
