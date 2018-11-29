@@ -13,6 +13,7 @@ r = session.get(url)
 # 打印出返回的HTML中的绝对链接部分
 # print(r.html.absolute_links)
 
+
 # 定位我们具体要获取的元素HTML相对位置
 sel = 'body > div.note > div.post > div.article > div.show-content > div > p > a'
 
