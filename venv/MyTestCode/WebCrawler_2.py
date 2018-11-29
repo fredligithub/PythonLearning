@@ -1,5 +1,6 @@
 # 亚马逊搜索Microservice并导出返回的书籍列表
 
+# https://html.python-requests.org/
 from requests_html import HTMLSession
 import pandas as pd
 
