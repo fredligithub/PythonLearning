@@ -19,5 +19,5 @@ def load_images_from_folder(folder):
         i = Image.open(folder + "/" + filename)
         frame2 = i.crop(((0, 0, 1024, 883)))
         frame2.save('C:/OpenCV/ImagesFromRnD/1130/Test/Result/' + random_string_generator(6, chars) + ".jpg")
-        
-allImage = load_images_from_folder("C:/OpenCV/ImagesFromRnD/1130/training set")
+       
+load_images_from_folder("C:/OpenCV/ImagesFromRnD/1130/training set")
