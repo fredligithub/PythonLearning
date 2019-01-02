@@ -30,4 +30,4 @@ def get_text_link_from_sel(sel):
 # 导出到Excel文件
 df = pd.DataFrame(get_text_link_from_sel(sel))
 df.columns = ['Text']
-df.to_csv('Output\Amazon_Devops.csv', encoding='utf_8_sig', index=False)
+df.to_csv('Output/Amazon_Devops.csv', encoding='utf_8_sig', index=False)

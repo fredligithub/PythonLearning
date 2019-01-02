@@ -12,7 +12,7 @@ max_lowThreshold = 100
 ratio = 3
 kernel_size = 3
 
-img = cv2.imread('C:/Users/GG/Pictures/Saved Pictures/Road.jpg')
+img = cv2.imread('C:/Users/GG/Pictures/Saved Pictures/Girl.jpg')
 
 # 读取了图片的长， 宽
 # h,w = img.shape[:2]

@@ -35,5 +35,5 @@ df = pd.DataFrame(get_text_link_from_sel(sel))
 # 定义数据表的表头
 df.columns = ['Text', 'Link']
 # 导出到Excel文件, utf_8_sig以防中文乱码
-df.to_csv('Output\Sample.csv', encoding='utf_8_sig', index=False)
+df.to_csv('Output/Sample.csv', encoding='utf_8_sig', index=False)
 
